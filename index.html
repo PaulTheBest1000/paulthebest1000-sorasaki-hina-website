@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorasaki Hina Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="download (5).ico" type="image/x-icon">
+</head>
+<body>
+        <!-- Time and Calendar Container with an additional button and audio player -->
+        <div id="time-calendar-container">
+            <div id="time">Loading time...</div>
+            <div id="calendar">Loading calendar...</div>
+        </div>
+    <div class="container">
+        
+    <h2>Welcome to My Sorasaki Hina Website!</h2>
+    <p>This is my first website using VS Code.</p>
+    <p>If you love Sorasaki Hina, click the button below:</p>
+
+    <button class="button" onclick="showMessage()">Click Me!</button>
+    <div id="jpg-container" style="display:none;">
+        <img id="jpg" src="images.jpg" alt="Sorasaki Hina JPG">
+    </div>
+
+    <div class="img-responsive image-container">
+        <img src="download (3).jpg" alt="Nice Hina" class="image">
+        <div class="text" style="color: violet;">This is Hina from Blue Archive!</div>
+    </div>
+
+    <div class="img-responsive image-container">
+        <img src="download.jpg" alt="Cute Hina" class="image">
+        <div class="text" style="color: pink;">Hina is cute!</div>
+    </div>
+
+    <div class="img-responsive image-container">
+        <img src="download (1).jpg" alt="Sitting Hina" class="image">
+        <div class="text" style="color: magenta;">Hina is sitting!</div>
+    </div>
+
+    <p style="color: magenta; background-color: purple; font-size: 18px; font: bold; margin: 20px; padding: 10px;">More Yuuka Photos Below</p>
+
+    <div class="img-responsive image-container">
+        <img src="download (5).jpg" alt=" Hina look" class="image">
+        <div class="text" style="color: magenta;">Hina is looking at you</div>
+    </div>
+
+    <div id="easter-egg" onclick="showSecret()" style="color: #f5b6c1;">Click me for a surprise!</div>
+<script>
+    function showSecret() {
+        alert('You found the secret! Sorasaki Hina says hello!');
+    }
+</script>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
