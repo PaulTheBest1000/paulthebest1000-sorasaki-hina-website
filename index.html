@@ -32,9 +32,21 @@
         
     <h2>Welcome to My Sorasaki Hina Website!</h2>
     <p>This is my first website using VS Code.</p>
-    <p>If you love Sorasaki Hina, click the button below:</p>
 
+    <p>If you love Sorasaki Hina, click the button below:</p>
     <button class="button" onclick="showMessage()">Click Me!</button>
+
+    <div id="music-player">
+        <audio id="bg-music" loop>
+            <source src="Blue Archive OST 21 Midnight Trip.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button id="music-toggle-btn">Play Music</button>
+        <progress id="progress-bar" value="0" max="100"></progress>
+        <span id="time-display">0:00 / 0:00</span>
+        <div id="message"></div> <!-- Container for custom messages -->
+    </div>
+
     <div id="jpg-container" style="display:none;">
         <img id="jpg" src="images.jpg" alt="Sorasaki Hina JPG">
     </div>
