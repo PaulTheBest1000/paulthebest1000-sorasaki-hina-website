@@ -313,7 +313,7 @@ p {
 
 /* Style the progress bar's color (left side) */
 #progress-bar::-webkit-progress-value {
-    background-color: cyan; /* Color for the left side */
+    background-color: pink; /* Color for the left side */
     border-radius: 5px;
 }
 
